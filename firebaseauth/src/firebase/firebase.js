@@ -5,6 +5,9 @@ import { getAuth } from "firebase/auth"; // Make sure to import getAuth
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+dotenv.config();
+
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
   authDomain: process.env.AUTH_DOMAIN,
